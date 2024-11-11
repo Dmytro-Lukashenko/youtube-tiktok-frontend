@@ -16,7 +16,7 @@ const refreshToken = async (client: ApolloClient<NormalizedCacheObject>) => {
     const { data } = await client.mutate({
       mutation: gql`
         mutation RefreshToken {
-          accessToken
+          refreshToken
         }
       `,
     });

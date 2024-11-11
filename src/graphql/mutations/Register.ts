@@ -8,7 +8,7 @@ mutation RegisterUser(
     $confirmPassword: String!
 ){
     register(
-        registerinput: {
+        registerInput: {
             fullname: $fullname
             email: $email
             password: $password
